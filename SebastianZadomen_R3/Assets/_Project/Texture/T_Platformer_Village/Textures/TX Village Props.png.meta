@@ -588,7 +588,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -640,12 +640,12 @@ TextureImporter:
       name: TX Village Props_0
       rect:
         serializedVersion: 2
-        x: 415
-        y: 959
-        width: 33
-        height: 55
+        x: 416
+        y: 960
+        width: 31
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -662,19 +662,19 @@ TextureImporter:
       name: TX Village Props_1
       rect:
         serializedVersion: 2
-        x: 716
-        y: 1008
-        width: 37
-        height: 11
+        x: 717
+        y: 1009
+        width: 35
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26428b63e07a4bf70800000000000000
+      spriteID: 52c0c79f9184d2b459cd20a5a0647800
       internalID: 9202163618114184290
       vertices: []
       indices: 
@@ -684,19 +684,19 @@ TextureImporter:
       name: TX Village Props_2
       rect:
         serializedVersion: 2
-        x: 968
-        y: 999
-        width: 15
-        height: 20
+        x: 969
+        y: 1000
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5aaba1df5e30a8050800000000000000
+      spriteID: 2e8377e02367ed04db76e2172d355b76
       internalID: 5803455356149086885
       vertices: []
       indices: 
@@ -706,19 +706,19 @@ TextureImporter:
       name: TX Village Props_3
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 999
-        width: 15
-        height: 20
+        x: 1002
+        y: 1000
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fe9f1b953be72e20800000000000000
+      spriteID: aec5967efcf03014780c34954d18dcf7
       internalID: 3325885465304735478
       vertices: []
       indices: 
@@ -728,19 +728,19 @@ TextureImporter:
       name: TX Village Props_4
       rect:
         serializedVersion: 2
-        x: 41
-        y: 959
-        width: 47
-        height: 47
+        x: 42
+        y: 960
+        width: 45
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f9845fad4ca283e0800000000000000
+      spriteID: d4e54b470a9797e409918153d4117963
       internalID: -2052889030473512461
       vertices: []
       indices: 
@@ -750,19 +750,19 @@ TextureImporter:
       name: TX Village Props_5
       rect:
         serializedVersion: 2
-        x: 126
-        y: 959
-        width: 37
-        height: 37
+        x: 127
+        y: 960
+        width: 35
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98a12f35f30e11c80800000000000000
+      spriteID: fc31e51ff0aee4d4386a1253d212c69e
       internalID: -8353649271199622519
       vertices: []
       indices: 
@@ -772,19 +772,19 @@ TextureImporter:
       name: TX Village Props_6
       rect:
         serializedVersion: 2
-        x: 194
-        y: 959
-        width: 29
-        height: 37
+        x: 195
+        y: 960
+        width: 27
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ccc82cc51a12d22f0800000000000000
+      spriteID: a8e0009f367bd0c4c97ab82ed2333554
       internalID: -996102965649306420
       vertices: []
       indices: 
@@ -794,19 +794,19 @@ TextureImporter:
       name: TX Village Props_7
       rect:
         serializedVersion: 2
-        x: 263
-        y: 958
-        width: 19
-        height: 32
+        x: 264
+        y: 959
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e7106c865be82580800000000000000
+      spriteID: 6611164550c70074f9ecbba97adc6089
       internalID: -8851566310641887263
       vertices: []
       indices: 
@@ -816,19 +816,19 @@ TextureImporter:
       name: TX Village Props_8
       rect:
         serializedVersion: 2
-        x: 293
-        y: 959
-        width: 23
-        height: 21
+        x: 294
+        y: 960
+        width: 21
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0c09d54c154200e0800000000000000
+      spriteID: bb696c0a89a4a4e4f8fc04c882568b60
       internalID: -2305204071527019509
       vertices: []
       indices: 
@@ -838,19 +838,19 @@ TextureImporter:
       name: TX Village Props_9
       rect:
         serializedVersion: 2
-        x: 327
-        y: 959
-        width: 21
-        height: 31
+        x: 328
+        y: 960
+        width: 19
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a8dc8422e0dc1830800000000000000
+      spriteID: a80564379a9ba824587f2598952e2702
       internalID: 4043336235166259366
       vertices: []
       indices: 
@@ -860,19 +860,19 @@ TextureImporter:
       name: TX Village Props_10
       rect:
         serializedVersion: 2
-        x: 387
-        y: 959
-        width: 29
-        height: 43
+        x: 388
+        y: 960
+        width: 27
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 31f27d3607d91f910800000000000000
+      spriteID: c8d86eb7e169c6440b7084d3b1e26a5a
       internalID: 1869448426372411155
       vertices: []
       indices: 
@@ -882,19 +882,19 @@ TextureImporter:
       name: TX Village Props_11
       rect:
         serializedVersion: 2
-        x: 456
-        y: 959
-        width: 83
-        height: 48
+        x: 457
+        y: 960
+        width: 81
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d0f2f5d73f04c2510800000000000000
+      spriteID: 32a73df580db72248b3695259efaca22
       internalID: 1525665788296376077
       vertices: []
       indices: 
@@ -904,19 +904,19 @@ TextureImporter:
       name: TX Village Props_12
       rect:
         serializedVersion: 2
-        x: 651
-        y: 962
-        width: 11
-        height: 26
+        x: 653
+        y: 963
+        width: 8
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7dd6186d206b57910800000000000000
+      spriteID: 30f339bd10a7cbf4e99ec952337e77ab
       internalID: 1834572546528341463
       vertices: []
       indices: 
@@ -926,19 +926,19 @@ TextureImporter:
       name: TX Village Props_13
       rect:
         serializedVersion: 2
-        x: 716
-        y: 959
-        width: 40
-        height: 46
+        x: 717
+        y: 960
+        width: 38
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fa6228af80321fd0800000000000000
+      spriteID: bbcd7738fd8fc2948af64d269f702fb8
       internalID: -2372780660111545611
       vertices: []
       indices: 
@@ -948,19 +948,19 @@ TextureImporter:
       name: TX Village Props_14
       rect:
         serializedVersion: 2
-        x: 796
-        y: 959
-        width: 41
-        height: 33
+        x: 797
+        y: 960
+        width: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c95d609ba79022e0800000000000000
+      spriteID: e92d43aaafe24e744b5b41d604f90d6b
       internalID: -2152553858764809784
       vertices: []
       indices: 
@@ -970,19 +970,19 @@ TextureImporter:
       name: TX Village Props_15
       rect:
         serializedVersion: 2
-        x: 872
-        y: 959
-        width: 47
-        height: 46
+        x: 873
+        y: 960
+        width: 45
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a989a983516fa200800000000000000
+      spriteID: 7f3616cb114a62f4ea916d5fb28ba5c0
       internalID: 193480320419989925
       vertices: []
       indices: 
@@ -992,19 +992,19 @@ TextureImporter:
       name: TX Village Props_16
       rect:
         serializedVersion: 2
-        x: 940
-        y: 894
-        width: 18
-        height: 99
+        x: 941
+        y: 895
+        width: 16
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbace6e9ac035ff50800000000000000
+      spriteID: 1b77f9ac88943144884612577b4e752c
       internalID: 6914486449696852669
       vertices: []
       indices: 
@@ -1014,19 +1014,19 @@ TextureImporter:
       name: TX Village Props_17
       rect:
         serializedVersion: 2
-        x: 975
-        y: 960
-        width: 35
-        height: 28
+        x: 976
+        y: 961
+        width: 33
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1fbda1a48981d6a80800000000000000
+      spriteID: bea781b29422b65428d91871f622a3b7
       internalID: -8472088281656665103
       vertices: []
       indices: 
@@ -1036,19 +1036,19 @@ TextureImporter:
       name: TX Village Props_18
       rect:
         serializedVersion: 2
-        x: 351
-        y: 945
-        width: 38
-        height: 11
+        x: 352
+        y: 946
+        width: 36
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c40ff7a3099662e70800000000000000
+      spriteID: e70144922ba662641aeb511320cedc0c
       internalID: 9090068966071595084
       vertices: []
       indices: 
@@ -1058,19 +1058,19 @@ TextureImporter:
       name: TX Village Props_19
       rect:
         serializedVersion: 2
-        x: 351
-        y: 931
-        width: 37
-        height: 10
+        x: 352
+        y: 932
+        width: 35
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e90a4805f328d7060800000000000000
+      spriteID: 5251e184151f36f4b82c3a7ec7220992
       internalID: 6952856608175333534
       vertices: []
       indices: 
@@ -1080,19 +1080,19 @@ TextureImporter:
       name: TX Village Props_20
       rect:
         serializedVersion: 2
-        x: 452
-        y: 895
-        width: 87
-        height: 41
+        x: 453
+        y: 896
+        width: 85
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36231766bdd93a9b0800000000000000
+      spriteID: 8faf5d992db739b49b71fe0fb1726b85
       internalID: -5070035189846953373
       vertices: []
       indices: 
@@ -1102,19 +1102,19 @@ TextureImporter:
       name: TX Village Props_21
       rect:
         serializedVersion: 2
-        x: 34
-        y: 895
-        width: 10
-        height: 35
+        x: 35
+        y: 896
+        width: 8
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0965cec9d99b02e20800000000000000
+      spriteID: f9b1ec7bff6572144bf2ec1315d12f75
       internalID: 3323860611593164432
       vertices: []
       indices: 
@@ -1124,19 +1124,19 @@ TextureImporter:
       name: TX Village Props_22
       rect:
         serializedVersion: 2
-        x: 53
-        y: 895
-        width: 10
-        height: 35
+        x: 54
+        y: 896
+        width: 8
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e177b603efe3a84f0800000000000000
+      spriteID: 2733c25e0a5e174419985c137356c39f
       internalID: -825778320214100194
       vertices: []
       indices: 
@@ -1146,19 +1146,19 @@ TextureImporter:
       name: TX Village Props_23
       rect:
         serializedVersion: 2
-        x: 69
-        y: 895
-        width: 11
-        height: 35
+        x: 70
+        y: 896
+        width: 9
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 975a8ddfc3861a110800000000000000
+      spriteID: 33e03d7bd0bd39744a4f5014fc17e124
       internalID: 1270411181061350777
       vertices: []
       indices: 
@@ -1168,19 +1168,19 @@ TextureImporter:
       name: TX Village Props_24
       rect:
         serializedVersion: 2
-        x: 91
-        y: 918
-        width: 42
-        height: 11
+        x: 92
+        y: 919
+        width: 40
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3768fa62648718000800000000000000
+      spriteID: 1143ce339a9263b4889bcbf39de776f6
       internalID: 36442514687755891
       vertices: []
       indices: 
@@ -1190,19 +1190,19 @@ TextureImporter:
       name: TX Village Props_25
       rect:
         serializedVersion: 2
-        x: 91
-        y: 907
-        width: 41
-        height: 11
+        x: 172
+        y: 896
+        width: 9
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c92dc2a947d84990800000000000000
+      spriteID: 1f368a7706f9d4f428d81d87f1d4225c
       internalID: -7401429276319471168
       vertices: []
       indices: 
@@ -1212,19 +1212,19 @@ TextureImporter:
       name: TX Village Props_26
       rect:
         serializedVersion: 2
-        x: 171
-        y: 895
-        width: 11
-        height: 35
+        x: 254
+        y: 896
+        width: 68
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b1b12d5ad5181fa0800000000000000
+      spriteID: 2871581ed90d123458ea8675b81b3886
       internalID: -5829885690021563978
       vertices: []
       indices: 
@@ -1234,19 +1234,19 @@ TextureImporter:
       name: TX Village Props_27
       rect:
         serializedVersion: 2
-        x: 253
-        y: 895
-        width: 70
-        height: 35
+        x: 352
+        y: 917
+        width: 61
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58b425297e76d0960800000000000000
+      spriteID: 55c2573857d7b454298913c030a5c0c3
       internalID: 7569820792969644933
       vertices: []
       indices: 
@@ -1256,19 +1256,19 @@ TextureImporter:
       name: TX Village Props_28
       rect:
         serializedVersion: 2
-        x: 351
-        y: 916
-        width: 63
-        height: 7
+        x: 577
+        y: 896
+        width: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81d8fef8c8837edf0800000000000000
+      spriteID: 5d6a251f6c9bef14baace5e1ac78d4bb
       internalID: -151089886132204264
       vertices: []
       indices: 
@@ -1278,19 +1278,19 @@ TextureImporter:
       name: TX Village Props_29
       rect:
         serializedVersion: 2
-        x: 575
-        y: 895
-        width: 33
-        height: 33
+        x: 614
+        y: 896
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 205105968e3cdcb30800000000000000
+      spriteID: e518e9317f8c5054a9c46d336ae4605f
       internalID: 4309315821430117634
       vertices: []
       indices: 
@@ -1300,19 +1300,19 @@ TextureImporter:
       name: TX Village Props_30
       rect:
         serializedVersion: 2
-        x: 612
-        y: 895
-        width: 25
-        height: 25
+        x: 867
+        y: 898
+        width: 27
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56665d9ea56b3afe0800000000000000
+      spriteID: 1b14cb17f0dad7240a8436f10470dfdc
       internalID: -1178898175854549403
       vertices: []
       indices: 
@@ -1322,19 +1322,19 @@ TextureImporter:
       name: TX Village Props_31
       rect:
         serializedVersion: 2
-        x: 866
-        y: 897
-        width: 29
-        height: 29
+        x: 83
+        y: 910
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b5b0e55a36836e330800000000000000
+      spriteID: 274f2feb3859d4141a9330640ad4c0e1
       internalID: 3739738541205097307
       vertices: []
       indices: 
@@ -1344,19 +1344,19 @@ TextureImporter:
       name: TX Village Props_32
       rect:
         serializedVersion: 2
-        x: 82
-        y: 909
-        width: 6
-        height: 6
+        x: 92
+        y: 908
+        width: 39
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97d38e8e1401add40800000000000000
+      spriteID: ce998f5660a593e4e93e2b0d576c3b50
       internalID: 5609814161109826937
       vertices: []
       indices: 
@@ -1366,19 +1366,19 @@ TextureImporter:
       name: TX Village Props_33
       rect:
         serializedVersion: 2
-        x: 201
-        y: 907
-        width: 15
-        height: 10
+        x: 202
+        y: 908
+        width: 13
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c66a1fc8d07c3bd00800000000000000
+      spriteID: e47d5c14a49feb040af18af3646c91d5
       internalID: 987351604337419884
       vertices: []
       indices: 
@@ -1388,19 +1388,19 @@ TextureImporter:
       name: TX Village Props_34
       rect:
         serializedVersion: 2
-        x: 351
-        y: 897
-        width: 39
-        height: 15
+        x: 352
+        y: 898
+        width: 37
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56c4bc00fada0d8b0800000000000000
+      spriteID: 48ab5f7efad43aa4d9070444680f5854
       internalID: -5129409008430789531
       vertices: []
       indices: 
@@ -1410,19 +1410,19 @@ TextureImporter:
       name: TX Village Props_35
       rect:
         serializedVersion: 2
-        x: 702
-        y: 831
-        width: 37
-        height: 79
+        x: 91
+        y: 896
+        width: 41
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77c4ebbd2ca831da0800000000000000
+      spriteID: 3392cc776b8659f438d905cbf20b36fb
       internalID: -5975279711075545993
       vertices: []
       indices: 
@@ -1432,19 +1432,19 @@ TextureImporter:
       name: TX Village Props_36
       rect:
         serializedVersion: 2
-        x: 90
-        y: 895
-        width: 43
-        height: 11
+        x: 703
+        y: 832
+        width: 35
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52edca656cd5c5ef0800000000000000
+      spriteID: ebf4edd37961ccb4abfe39592ff5c3c8
       internalID: -118116383779398107
       vertices: []
       indices: 
@@ -1454,19 +1454,19 @@ TextureImporter:
       name: TX Village Props_37
       rect:
         serializedVersion: 2
-        x: 351
-        y: 883
-        width: 51
-        height: 13
+        x: 799
+        y: 896
+        width: 33
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fcf786625aa2115e0800000000000000
+      spriteID: 71d402dfc20a6da4e97c9ee26f14f34f
       internalID: -1940723075617620017
       vertices: []
       indices: 
@@ -1476,19 +1476,19 @@ TextureImporter:
       name: TX Village Props_38
       rect:
         serializedVersion: 2
-        x: 798
-        y: 895
-        width: 35
-        height: 13
+        x: 352
+        y: 884
+        width: 49
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ff62469fccffdbc70800000000000000
+      spriteID: da45b5377d95729488905e26db910b50
       internalID: 8988621687123879679
       vertices: []
       indices: 
@@ -1498,19 +1498,19 @@ TextureImporter:
       name: TX Village Props_39
       rect:
         serializedVersion: 2
-        x: 351
-        y: 866
-        width: 35
-        height: 15
+        x: 352
+        y: 867
+        width: 33
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 603c07b2612a070b0800000000000000
+      spriteID: 23904ded7be446d43bf7a826311f587c
       internalID: -5732904109540850938
       vertices: []
       indices: 
@@ -1520,19 +1520,19 @@ TextureImporter:
       name: TX Village Props_40
       rect:
         serializedVersion: 2
-        x: 510
-        y: 831
-        width: 37
-        height: 49
+        x: 511
+        y: 832
+        width: 35
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e9827d35b0c76eb0800000000000000
+      spriteID: 7227a0a99d2b99148a9c18e57f19a4a4
       internalID: -4726597399249516062
       vertices: []
       indices: 
@@ -1542,19 +1542,19 @@ TextureImporter:
       name: TX Village Props_41
       rect:
         serializedVersion: 2
-        x: 578
-        y: 831
-        width: 29
-        height: 47
+        x: 579
+        y: 832
+        width: 27
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b6e96a77e615a4160800000000000000
+      spriteID: 4cd00275c9ac9cd439620f1fcffa6cac
       internalID: 7010505304851258987
       vertices: []
       indices: 
@@ -1564,19 +1564,19 @@ TextureImporter:
       name: TX Village Props_42
       rect:
         serializedVersion: 2
-        x: 642
-        y: 831
-        width: 29
-        height: 45
+        x: 643
+        y: 832
+        width: 27
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0feeb633345afde80800000000000000
+      spriteID: 5f2d09cd5fcdc7e4581230673c6465be
       internalID: -8151615092473205008
       vertices: []
       indices: 
@@ -1586,19 +1586,19 @@ TextureImporter:
       name: TX Village Props_43
       rect:
         serializedVersion: 2
-        x: 31
-        y: 767
-        width: 89
-        height: 93
+        x: 32
+        y: 768
+        width: 87
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a7d1581206c06220800000000000000
+      spriteID: 8e03c1b5b8fbbb34db8ec2bf776e11e3
       internalID: 2477197507354023845
       vertices: []
       indices: 
@@ -1608,19 +1608,19 @@ TextureImporter:
       name: TX Village Props_44
       rect:
         serializedVersion: 2
-        x: 188
-        y: 799
-        width: 70
-        height: 63
+        x: 189
+        y: 800
+        width: 68
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27a59326908b91680800000000000000
+      spriteID: 4b419e82763412944bfe04c3281abda1
       internalID: -8783787247767299470
       vertices: []
       indices: 
@@ -1630,19 +1630,19 @@ TextureImporter:
       name: TX Village Props_45
       rect:
         serializedVersion: 2
-        x: 259
-        y: 842
-        width: 13
-        height: 17
+        x: 260
+        y: 843
+        width: 11
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 819cbfb8d5727bd20800000000000000
+      spriteID: 82ce7eb08e223eb4abe3e29386783062
       internalID: 3294144935178783000
       vertices: []
       indices: 
@@ -1652,19 +1652,19 @@ TextureImporter:
       name: TX Village Props_46
       rect:
         serializedVersion: 2
-        x: 259
-        y: 826
-        width: 13
-        height: 17
+        x: 274
+        y: 840
+        width: 14
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f56c69498fefe140800000000000000
+      spriteID: 13159ec9ca4aaf04a8133c8637b6ea18
       internalID: 4751279504820561396
       vertices: []
       indices: 
@@ -1674,19 +1674,19 @@ TextureImporter:
       name: TX Village Props_47
       rect:
         serializedVersion: 2
-        x: 273
-        y: 839
-        width: 16
-        height: 20
+        x: 330
+        y: 832
+        width: 7
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b58a45ee0d618a8a0800000000000000
+      spriteID: aeff6b45f91d3b248bf2fdd53f7745fe
       internalID: -6293755392642733989
       vertices: []
       indices: 
@@ -1696,19 +1696,19 @@ TextureImporter:
       name: TX Village Props_48
       rect:
         serializedVersion: 2
-        x: 329
-        y: 831
-        width: 9
-        height: 20
+        x: 341
+        y: 844
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a7acd4b58ef1b6c0800000000000000
+      spriteID: 6d00e92a9e69745498674540ae581a7a
       internalID: -4129239533103568986
       vertices: []
       indices: 
@@ -1718,19 +1718,19 @@ TextureImporter:
       name: TX Village Props_49
       rect:
         serializedVersion: 2
-        x: 340
-        y: 843
-        width: 9
-        height: 11
+        x: 447
+        y: 832
+        width: 34
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3555a45ec4f5cded0800000000000000
+      spriteID: 6ee8445787f7f0d4aac0e8429fdde3af
       internalID: -2387928918544198317
       vertices: []
       indices: 
@@ -1740,19 +1740,19 @@ TextureImporter:
       name: TX Village Props_50
       rect:
         serializedVersion: 2
-        x: 446
-        y: 831
-        width: 36
-        height: 27
+        x: 743
+        y: 843
+        width: 19
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dea4508d04910da90800000000000000
+      spriteID: 3a17e4564a2f7fe48939e31d94094cf1
       internalID: -7291300030420006163
       vertices: []
       indices: 
@@ -1762,19 +1762,19 @@ TextureImporter:
       name: TX Village Props_51
       rect:
         serializedVersion: 2
-        x: 742
-        y: 842
-        width: 21
-        height: 12
+        x: 800
+        y: 832
+        width: 31
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 18f9b0c0e2a96f340800000000000000
+      spriteID: 5bbfca05e19b1ac46a4a9e29bd82c046
       internalID: 4897271167373254529
       vertices: []
       indices: 
@@ -1784,19 +1784,19 @@ TextureImporter:
       name: TX Village Props_52
       rect:
         serializedVersion: 2
-        x: 799
-        y: 831
-        width: 33
-        height: 29
+        x: 857
+        y: 832
+        width: 42
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec082b0483aa36550800000000000000
+      spriteID: 768d758079ca83c4c940228cb46f1332
       internalID: 6152948674498560206
       vertices: []
       indices: 
@@ -1806,19 +1806,19 @@ TextureImporter:
       name: TX Village Props_53
       rect:
         serializedVersion: 2
-        x: 856
-        y: 831
-        width: 44
-        height: 22
+        x: 260
+        y: 827
+        width: 11
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f99c739a4269a600800000000000000
+      spriteID: ba1ecd93695ea564ab8d63180396d50d
       internalID: 480022907733187058
       vertices: []
       indices: 
@@ -1828,19 +1828,19 @@ TextureImporter:
       name: TX Village Props_54
       rect:
         serializedVersion: 2
-        x: 340
-        y: 831
-        width: 12
-        height: 11
+        x: 341
+        y: 832
+        width: 10
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97de96af23c03e850800000000000000
+      spriteID: bd9e1d34f28fabf46b9aef3a7f4c69d3
       internalID: 6404976508140121465
       vertices: []
       indices: 
@@ -1850,19 +1850,19 @@ TextureImporter:
       name: TX Village Props_55
       rect:
         serializedVersion: 2
-        x: 353
-        y: 831
-        width: 19
-        height: 10
+        x: 354
+        y: 832
+        width: 17
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 992804d98b7b1c210800000000000000
+      spriteID: 4764f097db3ebf7438e4538421444eca
       internalID: 1351563366727975577
       vertices: []
       indices: 
@@ -1872,19 +1872,19 @@ TextureImporter:
       name: TX Village Props_56
       rect:
         serializedVersion: 2
-        x: 393
-        y: 799
-        width: 24
-        height: 38
+        x: 394
+        y: 800
+        width: 22
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9313992d9863f0790800000000000000
+      spriteID: 334fc833360a683459992baa6f2fc03a
       internalID: -7561765283760099015
       vertices: []
       indices: 
@@ -1894,19 +1894,19 @@ TextureImporter:
       name: TX Village Props_57
       rect:
         serializedVersion: 2
-        x: 259
-        y: 810
-        width: 13
-        height: 17
+        x: 260
+        y: 811
+        width: 11
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9ecc15dfb3c3d9b0800000000000000
+      spriteID: 76c0dc4a1c467f745b4cbfe14ec65e62
       internalID: -5056482727925330274
       vertices: []
       indices: 
@@ -1916,19 +1916,19 @@ TextureImporter:
       name: TX Village Props_58
       rect:
         serializedVersion: 2
-        x: 314
-        y: 799
-        width: 75
-        height: 30
+        x: 315
+        y: 800
+        width: 73
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f356ccb2ade8f2b0800000000000000
+      spriteID: 8d0aff104396baa4992eb0a05e546530
       internalID: -5550425257526537226
       vertices: []
       indices: 
@@ -1938,19 +1938,19 @@ TextureImporter:
       name: TX Village Props_59
       rect:
         serializedVersion: 2
-        x: 133
-        y: 767
-        width: 23
-        height: 27
+        x: 134
+        y: 768
+        width: 21
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d34735b7245029d20800000000000000
+      spriteID: 4d5dda71bb2d72d4581b300da5fcef11
       internalID: 3283692861401560125
       vertices: []
       indices: 
@@ -1960,19 +1960,19 @@ TextureImporter:
       name: TX Village Props_60
       rect:
         serializedVersion: 2
-        x: 191
-        y: 735
-        width: 64
-        height: 36
+        x: 192
+        y: 736
+        width: 62
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a756a8325f646aa0800000000000000
+      spriteID: 674d4c3ada8ff8643a71cb6e1b91c675
       internalID: -6168683190662309983
       vertices: []
       indices: 
@@ -1982,19 +1982,19 @@ TextureImporter:
       name: TX Village Props_61
       rect:
         serializedVersion: 2
-        x: 451
-        y: 767
-        width: 27
-        height: 36
+        x: 452
+        y: 768
+        width: 25
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9ed5efed0af13550800000000000000
+      spriteID: cada14d2f9762ad44aa7e1b89f37743a
       internalID: 6138962704849034911
       vertices: []
       indices: 
@@ -2004,19 +2004,19 @@ TextureImporter:
       name: TX Village Props_62
       rect:
         serializedVersion: 2
-        x: 513
-        y: 767
-        width: 31
-        height: 33
+        x: 514
+        y: 768
+        width: 29
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 29bf33200153741f0800000000000000
+      spriteID: 4053505d95ef70e48bf790e4247c796b
       internalID: -1060820844349752430
       vertices: []
       indices: 
@@ -2026,19 +2026,19 @@ TextureImporter:
       name: TX Village Props_63
       rect:
         serializedVersion: 2
-        x: 569
-        y: 703
-        width: 48
-        height: 92
+        x: 570
+        y: 704
+        width: 46
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47f86186a2e6f6970800000000000000
+      spriteID: 7c97ac910e795604aa71d0a008125976
       internalID: 8750333729418153844
       vertices: []
       indices: 
@@ -2048,19 +2048,19 @@ TextureImporter:
       name: TX Village Props_64
       rect:
         serializedVersion: 2
-        x: 638
-        y: 699
-        width: 34
-        height: 100
+        x: 639
+        y: 700
+        width: 31
+        height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ba5d0166917540b0800000000000000
+      spriteID: 58e3700813360a941836e4faaf45908c
       internalID: -5745060858953901384
       vertices: []
       indices: 
@@ -2070,19 +2070,19 @@ TextureImporter:
       name: TX Village Props_65
       rect:
         serializedVersion: 2
-        x: 703
-        y: 703
-        width: 66
-        height: 92
+        x: 704
+        y: 704
+        width: 64
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e097d2a2787c81c0800000000000000
+      spriteID: 5ecc1fb5eddc395408eed0735d35f5c8
       internalID: -4500089493896326937
       vertices: []
       indices: 
@@ -2092,19 +2092,19 @@ TextureImporter:
       name: TX Village Props_66
       rect:
         serializedVersion: 2
-        x: 776
-        y: 703
-        width: 49
-        height: 69
+        x: 777
+        y: 704
+        width: 47
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47edb4dddfafbfb90800000000000000
+      spriteID: f4dfb8b280d6e504bbeae4a53e07d1d9
       internalID: -7206890810429940108
       vertices: []
       indices: 
@@ -2114,19 +2114,19 @@ TextureImporter:
       name: TX Village Props_67
       rect:
         serializedVersion: 2
-        x: 898
-        y: 703
-        width: 28
-        height: 65
+        x: 128
+        y: 704
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a295e23aa73cbe30800000000000000
+      spriteID: c2588e2e48cb8784585ab7a40b3fed15
       internalID: 4520549330111009441
       vertices: []
       indices: 
@@ -2136,19 +2136,19 @@ TextureImporter:
       name: TX Village Props_68
       rect:
         serializedVersion: 2
-        x: 127
-        y: 703
-        width: 34
-        height: 34
+        x: 284
+        y: 736
+        width: 41
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ec6ab4573a4a71d0800000000000000
+      spriteID: 3031d3a0960b00d448a483bd2beedc1c
       internalID: -3352285371118752542
       vertices: []
       indices: 
@@ -2158,19 +2158,19 @@ TextureImporter:
       name: TX Village Props_69
       rect:
         serializedVersion: 2
-        x: 283
-        y: 735
-        width: 43
-        height: 31
+        x: 354
+        y: 736
+        width: 61
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca3f8802ed3ae37d0800000000000000
+      spriteID: 5e8a4e3d2f110af4fa0e0ba4c8ae0cf2
       internalID: -2936729732575071316
       vertices: []
       indices: 
@@ -2180,19 +2180,19 @@ TextureImporter:
       name: TX Village Props_70
       rect:
         serializedVersion: 2
-        x: 353
-        y: 735
-        width: 63
-        height: 25
+        x: 869
+        y: 704
+        width: 22
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d2844cb6e0c461c0800000000000000
+      spriteID: b0c5b29d394cd1a458750f62b71c1ae6
       internalID: -4511268829484776745
       vertices: []
       indices: 
@@ -2202,19 +2202,19 @@ TextureImporter:
       name: TX Village Props_71
       rect:
         serializedVersion: 2
-        x: 868
-        y: 703
-        width: 24
-        height: 60
+        x: 899
+        y: 704
+        width: 26
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00cadc0d0d1da08b0800000000000000
+      spriteID: d7e0b3064b0053e4fb0f4053e4739502
       internalID: -5185101326177162240
       vertices: []
       indices: 
@@ -2224,19 +2224,19 @@ TextureImporter:
       name: TX Village Props_72
       rect:
         serializedVersion: 2
-        x: 929
-        y: 703
-        width: 29
-        height: 61
+        x: 930
+        y: 704
+        width: 27
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2cd6f7a75336dbc40800000000000000
+      spriteID: d1f907aa2bff4ce469f55cda99d4dbb7
       internalID: 5529684998820425154
       vertices: []
       indices: 
@@ -2246,19 +2246,19 @@ TextureImporter:
       name: TX Village Props_73
       rect:
         serializedVersion: 2
-        x: 31
-        y: 676
-        width: 98
-        height: 42
+        x: 32
+        y: 677
+        width: 96
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bce3f732c24aa5cf0800000000000000
+      spriteID: e03153ad6982e784989af7d950664b65
       internalID: -262717118766694709
       vertices: []
       indices: 
@@ -2268,19 +2268,19 @@ TextureImporter:
       name: TX Village Props_74
       rect:
         serializedVersion: 2
-        x: 162
-        y: 639
-        width: 105
-        height: 51
+        x: 163
+        y: 640
+        width: 103
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16f75ae39c9887d50800000000000000
+      spriteID: aef3d1ca1399dd14696dfa5443c45043
       internalID: 6735284740165042017
       vertices: []
       indices: 
@@ -2290,19 +2290,19 @@ TextureImporter:
       name: TX Village Props_75
       rect:
         serializedVersion: 2
-        x: 329
-        y: 663
-        width: 12
-        height: 42
+        x: 330
+        y: 665
+        width: 10
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5845c5a007c28b70800000000000000
+      spriteID: 1f50a719af2a1d649a3cbc596dbc882f
       internalID: 8899894619232618589
       vertices: []
       indices: 
@@ -2312,19 +2312,19 @@ TextureImporter:
       name: TX Village Props_76
       rect:
         serializedVersion: 2
-        x: 360
-        y: 671
-        width: 18
-        height: 14
+        x: 361
+        y: 672
+        width: 16
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f539e3d93cf43a310800000000000000
+      spriteID: 7534573cc85a9114ba2dee11486b7add
       internalID: 1415062409499808607
       vertices: []
       indices: 
@@ -2334,19 +2334,19 @@ TextureImporter:
       name: TX Village Props_77
       rect:
         serializedVersion: 2
-        x: 386
-        y: 675
-        width: 92
-        height: 30
+        x: 387
+        y: 676
+        width: 90
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cca4d0af5722240a0800000000000000
+      spriteID: e2c6bcafece18f946a9e93e98aeea882
       internalID: -6898913789076485428
       vertices: []
       indices: 
@@ -2356,19 +2356,19 @@ TextureImporter:
       name: TX Village Props_78
       rect:
         serializedVersion: 2
-        x: 482
-        y: 607
-        width: 22
-        height: 89
+        x: 483
+        y: 608
+        width: 20
+        height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ac7fe32dba49f220800000000000000
+      spriteID: 71da61d5c908193449cd1ea7e8146630
       internalID: 2520127642702675112
       vertices: []
       indices: 
@@ -2378,19 +2378,19 @@ TextureImporter:
       name: TX Village Props_79
       rect:
         serializedVersion: 2
-        x: 550
-        y: 607
-        width: 8
-        height: 75
+        x: 551
+        y: 608
+        width: 6
+        height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9f400c2b39408430800000000000000
+      spriteID: c1997876b1eda0b47802648eb94d0eaf
       internalID: 3783104205481332636
       vertices: []
       indices: 
@@ -2400,19 +2400,19 @@ TextureImporter:
       name: TX Village Props_80
       rect:
         serializedVersion: 2
-        x: 562
-        y: 607
-        width: 8
-        height: 75
+        x: 563
+        y: 608
+        width: 6
+        height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17456c139e65d5640800000000000000
+      spriteID: dd41c4c66b5c02e479a8cf1a66030c97
       internalID: 5070304315051496561
       vertices: []
       indices: 
@@ -2422,19 +2422,19 @@ TextureImporter:
       name: TX Village Props_81
       rect:
         serializedVersion: 2
-        x: 324
-        y: 639
-        width: 24
-        height: 15
+        x: 325
+        y: 640
+        width: 22
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c31927a059f8acf0800000000000000
+      spriteID: 8d657b8154ab6b743b13f0ed753ec4fd
       internalID: -240668455267134522
       vertices: []
       indices: 
@@ -2444,19 +2444,19 @@ TextureImporter:
       name: TX Village Props_82
       rect:
         serializedVersion: 2
-        x: 364
-        y: 639
-        width: 9
-        height: 12
+        x: 365
+        y: 640
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2cf0c2de98764cd0800000000000000
+      spriteID: c894159e5cdb268488c7b134546ba2e5
       internalID: -2574237513459631058
       vertices: []
       indices: 
@@ -2466,19 +2466,19 @@ TextureImporter:
       name: TX Village Props_83
       rect:
         serializedVersion: 2
-        x: 395
-        y: 649
-        width: 11
-        height: 15
+        x: 396
+        y: 650
+        width: 9
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b96e59b5f309c440800000000000000
+      spriteID: e2bfdb4a8b8e39c4ab2b625760a70661
       internalID: 4956497218809784761
       vertices: []
       indices: 
@@ -2488,19 +2488,19 @@ TextureImporter:
       name: TX Village Props_84
       rect:
         serializedVersion: 2
-        x: 409
-        y: 649
-        width: 11
-        height: 15
+        x: 410
+        y: 650
+        width: 9
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b71f650811e863280800000000000000
+      spriteID: 2cc0a273a9c316d438c42b38df56df20
       internalID: -9063900994217774725
       vertices: []
       indices: 
@@ -2510,19 +2510,19 @@ TextureImporter:
       name: TX Village Props_85
       rect:
         serializedVersion: 2
-        x: 423
-        y: 649
-        width: 11
-        height: 15
+        x: 424
+        y: 650
+        width: 9
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb30fd5b1d3d6ca50800000000000000
+      spriteID: 8db517340af93db4a9ef225528121af2
       internalID: 6541148406455141307
       vertices: []
       indices: 
@@ -2532,19 +2532,19 @@ TextureImporter:
       name: TX Village Props_86
       rect:
         serializedVersion: 2
-        x: 437
-        y: 649
-        width: 11
-        height: 15
+        x: 438
+        y: 650
+        width: 9
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a8018b71bf4b5bd0800000000000000
+      spriteID: 0c6aad5fbcd85404284045a4979a5a53
       internalID: -2640429132822804318
       vertices: []
       indices: 
@@ -2554,19 +2554,19 @@ TextureImporter:
       name: TX Village Props_87
       rect:
         serializedVersion: 2
-        x: 576
-        y: 648
-        width: 94
-        height: 11
+        x: 577
+        y: 649
+        width: 92
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: efb2c7bb5723be8d0800000000000000
+      spriteID: a4804f99c435af14e830f2692377a91f
       internalID: -2816101660752073730
       vertices: []
       indices: 
@@ -2576,19 +2576,19 @@ TextureImporter:
       name: TX Village Props_88
       rect:
         serializedVersion: 2
-        x: 679
-        y: 643
-        width: 17
-        height: 23
+        x: 680
+        y: 644
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eccff198af58f0c90800000000000000
+      spriteID: a908c568e18c01c488081150a71aea34
       internalID: -7201389968053240626
       vertices: []
       indices: 
@@ -2598,19 +2598,19 @@ TextureImporter:
       name: TX Village Props_89
       rect:
         serializedVersion: 2
-        x: 712
-        y: 648
-        width: 16
-        height: 12
+        x: 713
+        y: 649
+        width: 14
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 370776c96d501afd0800000000000000
+      spriteID: 97ed7ed752fd3f44e8afcf3e769b0d84
       internalID: -2332576712696041357
       vertices: []
       indices: 
@@ -2620,19 +2620,19 @@ TextureImporter:
       name: TX Village Props_90
       rect:
         serializedVersion: 2
-        x: 747
-        y: 646
-        width: 10
-        height: 18
+        x: 748
+        y: 647
+        width: 8
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fcf80e8dc8b435180800000000000000
+      spriteID: 8150be891e2b6fd42b1bf27380e19d45
       internalID: -9127868951443763249
       vertices: []
       indices: 
@@ -2642,19 +2642,19 @@ TextureImporter:
       name: TX Village Props_91
       rect:
         serializedVersion: 2
-        x: 815
-        y: 639
-        width: 35
-        height: 21
+        x: 816
+        y: 640
+        width: 33
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b156535bd0ddc3b0800000000000000
+      spriteID: 410044a180a9ae043b4d9e9ef0b2cc94
       internalID: -5490502730280185420
       vertices: []
       indices: 
@@ -2664,19 +2664,19 @@ TextureImporter:
       name: TX Village Props_92
       rect:
         serializedVersion: 2
-        x: 873
-        y: 639
-        width: 48
-        height: 28
+        x: 874
+        y: 640
+        width: 46
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9641afea9d9a73100800000000000000
+      spriteID: 03ec5ce0490edfa4698ea1b6a99b96d1
       internalID: 87725470165636201
       vertices: []
       indices: 
@@ -2686,19 +2686,19 @@ TextureImporter:
       name: TX Village Props_93
       rect:
         serializedVersion: 2
-        x: 933
-        y: 639
-        width: 23
-        height: 17
+        x: 934
+        y: 640
+        width: 21
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f20e765c897ac310800000000000000
+      spriteID: e6242bcbf2c870a4b8e8ba909b723304
       internalID: 1426085875669664499
       vertices: []
       indices: 
@@ -2708,19 +2708,19 @@ TextureImporter:
       name: TX Village Props_94
       rect:
         serializedVersion: 2
-        x: 27
-        y: 613
-        width: 106
-        height: 28
+        x: 28
+        y: 614
+        width: 104
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a28ad0b1de3031810800000000000000
+      spriteID: f7bfb9828481f0d49a93ae5ce8ac7c4b
       internalID: 1734734598363785258
       vertices: []
       indices: 
@@ -2730,19 +2730,19 @@ TextureImporter:
       name: TX Village Props_95
       rect:
         serializedVersion: 2
-        x: 27
-        y: 581
-        width: 42
-        height: 28
+        x: 28
+        y: 582
+        width: 40
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b1cce5841feec200800000000000000
+      spriteID: a0a4574c4482537409d47fb4d5481db4
       internalID: 202361904703521202
       vertices: []
       indices: 
@@ -2752,19 +2752,19 @@ TextureImporter:
       name: TX Village Props_96
       rect:
         serializedVersion: 2
-        x: 91
-        y: 581
-        width: 38
-        height: 28
+        x: 92
+        y: 582
+        width: 36
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2b3e0ce44fa3e230800000000000000
+      spriteID: 266c4c4d0c4a6e945b37b8a951736208
       internalID: 3666967232162708266
       vertices: []
       indices: 
@@ -2774,19 +2774,19 @@ TextureImporter:
       name: TX Village Props_97
       rect:
         serializedVersion: 2
-        x: 160
-        y: 606
-        width: 100
-        height: 24
+        x: 161
+        y: 607
+        width: 98
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e28aad553d443cd00800000000000000
+      spriteID: a959ba8ae18d5c5448d0d7f59a290e20
       internalID: 991712017420822574
       vertices: []
       indices: 
@@ -2796,19 +2796,19 @@ TextureImporter:
       name: TX Village Props_98
       rect:
         serializedVersion: 2
-        x: 329
-        y: 607
-        width: 16
-        height: 17
+        x: 330
+        y: 608
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1ff05a9d84f69480800000000000000
+      spriteID: 842fcaae42a77fc4d9617d88156aab55
       internalID: -8892651525179900130
       vertices: []
       indices: 
@@ -2818,19 +2818,19 @@ TextureImporter:
       name: TX Village Props_99
       rect:
         serializedVersion: 2
-        x: 357
-        y: 607
-        width: 22
-        height: 14
+        x: 358
+        y: 608
+        width: 20
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1a27b7303e311600800000000000000
+      spriteID: 9550aa3b00120cc4f8d2ace9a0a8dd3b
       internalID: 437199015645751835
       vertices: []
       indices: 
@@ -2840,19 +2840,19 @@ TextureImporter:
       name: TX Village Props_100
       rect:
         serializedVersion: 2
-        x: 390
-        y: 607
-        width: 87
-        height: 35
+        x: 391
+        y: 608
+        width: 85
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d6e03fc1b205f7540800000000000000
+      spriteID: 3d8d7ffdd7a43314db0afc5012d4b7f7
       internalID: 5007809456758787693
       vertices: []
       indices: 
@@ -2862,19 +2862,19 @@ TextureImporter:
       name: TX Village Props_101
       rect:
         serializedVersion: 2
-        x: 396
-        y: 589
-        width: 7
-        height: 7
+        x: 397
+        y: 590
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0036186c7ba30020800000000000000
+      spriteID: 8c896fde68c7a0b4ca296183202ff087
       internalID: 2306875984954404879
       vertices: []
       indices: 
@@ -2884,19 +2884,19 @@ TextureImporter:
       name: TX Village Props_102
       rect:
         serializedVersion: 2
-        x: 428
-        y: 588
-        width: 9
-        height: 9
+        x: 429
+        y: 589
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fec6c2b8c7394c1b0800000000000000
+      spriteID: 3a54e4d1acb72f045998d8dbcc027b33
       internalID: -5637218670440846097
       vertices: []
       indices: 
@@ -2906,19 +2906,19 @@ TextureImporter:
       name: TX Village Props_103
       rect:
         serializedVersion: 2
-        x: 581
-        y: 587
-        width: 85
-        height: 48
+        x: 582
+        y: 588
+        width: 83
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17a48ba9c7d3767a0800000000000000
+      spriteID: 8c299d3aac5849848b8d10d42f71ad8d
       internalID: -6384066341393380751
       vertices: []
       indices: 
@@ -2928,19 +2928,19 @@ TextureImporter:
       name: TX Village Props_104
       rect:
         serializedVersion: 2
-        x: 679
-        y: 609
-        width: 20
-        height: 25
+        x: 680
+        y: 611
+        width: 18
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 148f32c51476a9760800000000000000
+      spriteID: fe652059898238943b31bc31ccb98c92
       internalID: 7465392862736414785
       vertices: []
       indices: 
@@ -2950,19 +2950,19 @@ TextureImporter:
       name: TX Village Props_105
       rect:
         serializedVersion: 2
-        x: 679
-        y: 581
-        width: 20
-        height: 20
+        x: 680
+        y: 582
+        width: 18
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8cd9586cbc1ab46a0800000000000000
+      spriteID: 8662732c23e090f459aadd9deb4b064a
       internalID: -6463894943579136568
       vertices: []
       indices: 
@@ -2972,19 +2972,19 @@ TextureImporter:
       name: TX Village Props_106
       rect:
         serializedVersion: 2
-        x: 712
-        y: 611
-        width: 17
-        height: 27
+        x: 713
+        y: 612
+        width: 15
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c046c6c54992c7e0800000000000000
+      spriteID: c079749274ca8ee43b6dc0d543003b2e
       internalID: -1746665180499656511
       vertices: []
       indices: 
@@ -2994,19 +2994,19 @@ TextureImporter:
       name: TX Village Props_107
       rect:
         serializedVersion: 2
-        x: 712
-        y: 579
-        width: 19
-        height: 25
+        x: 713
+        y: 580
+        width: 17
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e8cfa332ad1c2350800000000000000
+      spriteID: acc937aab674f3848a4d309861eef485
       internalID: 5993197786612353251
       vertices: []
       indices: 
@@ -3016,19 +3016,19 @@ TextureImporter:
       name: TX Village Props_108
       rect:
         serializedVersion: 2
-        x: 735
-        y: 582
-        width: 33
-        height: 46
+        x: 738
+        y: 583
+        width: 28
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c63a6f1d89bfee9b0800000000000000
+      spriteID: 18c965ea853899347b8f87060a9760fc
       internalID: -5048821498459544724
       vertices: []
       indices: 
@@ -3038,19 +3038,19 @@ TextureImporter:
       name: TX Village Props_109
       rect:
         serializedVersion: 2
-        x: 31
-        y: 549
-        width: 38
-        height: 28
+        x: 32
+        y: 550
+        width: 36
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 29275b0933cdf4dc0800000000000000
+      spriteID: 7bb6839c9df6aa441a74ab5c0876b09e
       internalID: -3652458658744929646
       vertices: []
       indices: 
@@ -3060,19 +3060,19 @@ TextureImporter:
       name: TX Village Props_110
       rect:
         serializedVersion: 2
-        x: 244
-        y: 446
-        width: 21
-        height: 131
+        x: 245
+        y: 447
+        width: 19
+        height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b44717adcc6d2e50800000000000000
+      spriteID: ddf70ff6c15f09f40bac2261bfc31dac
       internalID: 6786199844044620980
       vertices: []
       indices: 
@@ -3082,19 +3082,19 @@ TextureImporter:
       name: TX Village Props_111
       rect:
         serializedVersion: 2
-        x: 279
-        y: 446
-        width: 21
-        height: 131
+        x: 280
+        y: 447
+        width: 19
+        height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b892c8c6fd9ce660800000000000000
+      spriteID: 7398e89524cd7c6429219c3a24ac1cb2
       internalID: 7416476369628076214
       vertices: []
       indices: 
@@ -3104,19 +3104,19 @@ TextureImporter:
       name: TX Village Props_112
       rect:
         serializedVersion: 2
-        x: 390
-        y: 543
-        width: 19
-        height: 12
+        x: 391
+        y: 544
+        width: 17
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6600409caa917d360800000000000000
+      spriteID: 6cd07d8f51668674b8130ed7c0b9f402
       internalID: 7194247151055274086
       vertices: []
       indices: 
@@ -3126,19 +3126,19 @@ TextureImporter:
       name: TX Village Props_113
       rect:
         serializedVersion: 2
-        x: 420
-        y: 543
-        width: 25
-        height: 13
+        x: 421
+        y: 544
+        width: 23
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e404484bd29c2640800000000000000
+      spriteID: 0cc9a71050f2f6642b633bde0ac96d9e
       internalID: 5056577952138134759
       vertices: []
       indices: 
@@ -3148,19 +3148,19 @@ TextureImporter:
       name: TX Village Props_114
       rect:
         serializedVersion: 2
-        x: 457
-        y: 543
-        width: 13
-        height: 9
+        x: 458
+        y: 544
+        width: 11
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85e4552cfdea26370800000000000000
+      spriteID: ebf89ecba0e03d0468db971ec6f0506b
       internalID: 8314400138140667480
       vertices: []
       indices: 
@@ -3170,19 +3170,19 @@ TextureImporter:
       name: TX Village Props_115
       rect:
         serializedVersion: 2
-        x: 692
-        y: 414
-        width: 122
-        height: 140
+        x: 693
+        y: 415
+        width: 120
+        height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 580b84c184bab0e40800000000000000
+      spriteID: 672f3ff97e5cc8548832a11b73e848fe
       internalID: 5623776885902717061
       vertices: []
       indices: 
@@ -3192,19 +3192,19 @@ TextureImporter:
       name: TX Village Props_116
       rect:
         serializedVersion: 2
-        x: 831
-        y: 414
-        width: 155
-        height: 164
+        x: 832
+        y: 415
+        width: 153
+        height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0e61174de17df5eb0800000000000000
+      spriteID: c3f445c227e569848abac8f3b58fc5d9
       internalID: -4728824556302559520
       vertices: []
       indices: 
@@ -3214,19 +3214,19 @@ TextureImporter:
       name: TX Village Props_117
       rect:
         serializedVersion: 2
-        x: 31
-        y: 535
-        width: 34
-        height: 9
+        x: 32
+        y: 536
+        width: 32
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ff1f9cdf647c98e50800000000000000
+      spriteID: 4089fa7f74fbca247aa04edab863535b
       internalID: 6812195019094094335
       vertices: []
       indices: 
@@ -3236,19 +3236,19 @@ TextureImporter:
       name: TX Village Props_118
       rect:
         serializedVersion: 2
-        x: 95
-        y: 535
-        width: 34
-        height: 9
+        x: 96
+        y: 536
+        width: 32
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87362bb3807876830800000000000000
+      spriteID: 1d62bc82dcc0c5d4ba538df7c166744b
       internalID: 4064365658156196728
       vertices: []
       indices: 
@@ -3258,19 +3258,19 @@ TextureImporter:
       name: TX Village Props_119
       rect:
         serializedVersion: 2
-        x: 319
-        y: 447
-        width: 34
-        height: 98
+        x: 320
+        y: 448
+        width: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9da557cab90c2bac0800000000000000
+      spriteID: c5ef4fc6f04e0a742becc07dda5023a5
       internalID: -3840795757347775783
       vertices: []
       indices: 
@@ -3280,19 +3280,19 @@ TextureImporter:
       name: TX Village Props_120
       rect:
         serializedVersion: 2
-        x: 544
-        y: 479
-        width: 30
-        height: 61
+        x: 545
+        y: 480
+        width: 28
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25eaf28ff18009bd0800000000000000
+      spriteID: 406ef69054588394fa880a0bee422983
       internalID: -2625589649356116398
       vertices: []
       indices: 
@@ -3302,19 +3302,19 @@ TextureImporter:
       name: TX Village Props_121
       rect:
         serializedVersion: 2
-        x: 579
-        y: 479
-        width: 26
-        height: 59
+        x: 580
+        y: 480
+        width: 24
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7a1e9c3a6dfc6c30800000000000000
+      spriteID: 951417eb667639f42b208303a169b642
       internalID: 4354133572485782140
       vertices: []
       indices: 
@@ -3324,19 +3324,19 @@ TextureImporter:
       name: TX Village Props_122
       rect:
         serializedVersion: 2
-        x: 608
-        y: 479
-        width: 29
-        height: 56
+        x: 390
+        y: 512
+        width: 11
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc5809010bbc3b5e0800000000000000
+      spriteID: e0c7d534116f92d4f9f5360fb0e7b3b5
       internalID: -1894947061140257331
       vertices: []
       indices: 
@@ -3346,19 +3346,19 @@ TextureImporter:
       name: TX Village Props_123
       rect:
         serializedVersion: 2
-        x: 93
-        y: 479
-        width: 37
-        height: 32
+        x: 400
+        y: 512
+        width: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9fbe3786a79824a0800000000000000
+      spriteID: ed6e7220ab75ef247855c3569efb243a
       internalID: -6617872910931542113
       vertices: []
       indices: 
@@ -3368,19 +3368,19 @@ TextureImporter:
       name: TX Village Props_124
       rect:
         serializedVersion: 2
-        x: 389
-        y: 511
-        width: 13
-        height: 14
+        x: 420
+        y: 512
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a2f614908d2119c0800000000000000
+      spriteID: 1644b9ccbbf865944ab4a1c88514bef6
       internalID: -3958332567218359645
       vertices: []
       indices: 
@@ -3390,19 +3390,19 @@ TextureImporter:
       name: TX Village Props_125
       rect:
         serializedVersion: 2
-        x: 399
-        y: 511
-        width: 11
-        height: 12
+        x: 427
+        y: 512
+        width: 5
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b9c8355688ee4fd0800000000000000
+      spriteID: c8dac40eaf4193345846acb2e0f62449
       internalID: -2355689891415144014
       vertices: []
       indices: 
@@ -3412,19 +3412,19 @@ TextureImporter:
       name: TX Village Props_126
       rect:
         serializedVersion: 2
-        x: 419
-        y: 511
-        width: 8
-        height: 8
+        x: 433
+        y: 512
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 059f0c509dcb78a30800000000000000
+      spriteID: e148ee43cb4c37241bc53e174b8e990e
       internalID: 4217547216346216784
       vertices: []
       indices: 
@@ -3434,19 +3434,19 @@ TextureImporter:
       name: TX Village Props_127
       rect:
         serializedVersion: 2
-        x: 426
-        y: 511
-        width: 7
-        height: 11
+        x: 439
+        y: 512
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be4eaff5c171f3440800000000000000
+      spriteID: b7894859744295144ac16e0342313c2e
       internalID: 4917674728748672235
       vertices: []
       indices: 
@@ -3456,19 +3456,19 @@ TextureImporter:
       name: TX Village Props_128
       rect:
         serializedVersion: 2
-        x: 432
-        y: 511
+        x: 455
+        y: 512
         width: 7
-        height: 8
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f95347d480d247eb0800000000000000
+      spriteID: db5beda2ecd145841b2d12c0ea0bd296
       internalID: -4723100595522357857
       vertices: []
       indices: 
@@ -3478,19 +3478,19 @@ TextureImporter:
       name: TX Village Props_129
       rect:
         serializedVersion: 2
-        x: 438
-        y: 511
-        width: 7
-        height: 8
+        x: 463
+        y: 512
+        width: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c57d99eb212737e0800000000000000
+      spriteID: a2283c73f112fa549b85040421a94f57
       internalID: -1785922254742391356
       vertices: []
       indices: 
@@ -3500,19 +3500,19 @@ TextureImporter:
       name: TX Village Props_130
       rect:
         serializedVersion: 2
-        x: 454
-        y: 511
-        width: 9
-        height: 13
+        x: 514
+        y: 480
+        width: 28
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffcc1d7a91bc70a00800000000000000
+      spriteID: 1921b3e7a61835e4dafef1ce5fa8bbdf
       internalID: 722769576266419455
       vertices: []
       indices: 
@@ -3522,19 +3522,19 @@ TextureImporter:
       name: TX Village Props_131
       rect:
         serializedVersion: 2
-        x: 462
-        y: 511
-        width: 11
-        height: 12
+        x: 609
+        y: 480
+        width: 27
+        height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b63077ffa29db540800000000000000
+      spriteID: 1b3f8eaaf168ac841bd8443bf6058db9
       internalID: 5025334043683600051
       vertices: []
       indices: 
@@ -3544,19 +3544,19 @@ TextureImporter:
       name: TX Village Props_132
       rect:
         serializedVersion: 2
-        x: 513
-        y: 479
-        width: 30
-        height: 52
+        x: 644
+        y: 480
+        width: 25
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 546a3b7be5be67eb0800000000000000
+      spriteID: dd62f905c87c8ac4594a2eb6132cf2ca
       internalID: -4722328367209929147
       vertices: []
       indices: 
@@ -3566,19 +3566,19 @@ TextureImporter:
       name: TX Village Props_133
       rect:
         serializedVersion: 2
-        x: 643
-        y: 479
-        width: 27
-        height: 50
+        x: 30
+        y: 480
+        width: 35
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0377df2f19281a970800000000000000
+      spriteID: e291d30620a2856448aa275d5fb59d68
       internalID: 8764429913198262064
       vertices: []
       indices: 
@@ -3588,19 +3588,19 @@ TextureImporter:
       name: TX Village Props_134
       rect:
         serializedVersion: 2
-        x: 29
-        y: 479
-        width: 37
-        height: 31
+        x: 94
+        y: 480
+        width: 35
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77448f46e9c638170800000000000000
+      spriteID: 5591a93303fa4c7438e68883669eb0c6
       internalID: 8179500775789577335
       vertices: []
       indices: 
@@ -3610,19 +3610,19 @@ TextureImporter:
       name: TX Village Props_135
       rect:
         serializedVersion: 2
-        x: 390
-        y: 479
-        width: 14
-        height: 16
+        x: 391
+        y: 480
+        width: 12
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b4cee12328e250a90800000000000000
+      spriteID: 80d7199399ccf244dba9df953a6d6fc1
       internalID: -7348416080263582645
       vertices: []
       indices: 
@@ -3632,19 +3632,19 @@ TextureImporter:
       name: TX Village Props_136
       rect:
         serializedVersion: 2
-        x: 402
-        y: 479
-        width: 10
-        height: 10
+        x: 403
+        y: 480
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 20db3d41c9debe890800000000000000
+      spriteID: e725791d318036648bf408a5a193690a
       internalID: -7427581905797399294
       vertices: []
       indices: 
@@ -3654,19 +3654,19 @@ TextureImporter:
       name: TX Village Props_137
       rect:
         serializedVersion: 2
-        x: 417
-        y: 479
-        width: 9
-        height: 8
+        x: 418
+        y: 480
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db93d7bbb2ceb7cd0800000000000000
+      spriteID: 034817924e301a942a48453a9c2ad780
       internalID: -2559192290656699971
       vertices: []
       indices: 
@@ -3676,19 +3676,19 @@ TextureImporter:
       name: TX Village Props_138
       rect:
         serializedVersion: 2
-        x: 425
-        y: 479
-        width: 13
-        height: 11
+        x: 426
+        y: 480
+        width: 11
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4acb28e265ee4360800000000000000
+      spriteID: e2472f2346b67274c94b4f71a2243d9e
       internalID: 7155909070903036492
       vertices: []
       indices: 
@@ -3698,19 +3698,19 @@ TextureImporter:
       name: TX Village Props_139
       rect:
         serializedVersion: 2
-        x: 437
-        y: 479
-        width: 11
-        height: 8
+        x: 438
+        y: 480
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e46479b7689cc720800000000000000
+      spriteID: 92ee7676d31567e4a97554750927b1c0
       internalID: 2867834633988629733
       vertices: []
       indices: 
@@ -3720,19 +3720,19 @@ TextureImporter:
       name: TX Village Props_140
       rect:
         serializedVersion: 2
-        x: 453
-        y: 479
-        width: 11
-        height: 10
+        x: 454
+        y: 480
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d0e70c2e2defd04b0800000000000000
+      spriteID: 34836df8de4269746bb9fa2b06805734
       internalID: -5472437790484431347
       vertices: []
       indices: 
@@ -3742,19 +3742,19 @@ TextureImporter:
       name: TX Village Props_141
       rect:
         serializedVersion: 2
-        x: 464
-        y: 479
-        width: 10
-        height: 7
+        x: 465
+        y: 480
+        width: 8
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00fbbc392170f7480800000000000000
+      spriteID: 80ab269ec0623544f8e3cd9234b96ded
       internalID: -8899386562290401536
       vertices: []
       indices: 
@@ -3764,19 +3764,19 @@ TextureImporter:
       name: TX Village Props_142
       rect:
         serializedVersion: 2
-        x: 31
-        y: 415
-        width: 36
-        height: 32
+        x: 32
+        y: 416
+        width: 34
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d3c3b80c073fe520800000000000000
+      spriteID: d9fe35cb51a6ab4448d0fd658888cb6f
       internalID: 2733464023662314450
       vertices: []
       indices: 
@@ -3786,19 +3786,19 @@ TextureImporter:
       name: TX Village Props_143
       rect:
         serializedVersion: 2
-        x: 93
-        y: 415
-        width: 37
-        height: 31
+        x: 94
+        y: 416
+        width: 35
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7e953aef1376e4e0800000000000000
+      spriteID: 83ee7d1f2f5f9dd448b082a65708ece3
       internalID: -1952746807507968388
       vertices: []
       indices: 
@@ -3808,19 +3808,19 @@ TextureImporter:
       name: TX Village Props_144
       rect:
         serializedVersion: 2
-        x: 160
-        y: 415
-        width: 33
-        height: 36
+        x: 161
+        y: 416
+        width: 31
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6adbe3f258b447cf0800000000000000
+      spriteID: 85afab06aec706948a2790d624abe593
       internalID: -255496243457901146
       vertices: []
       indices: 
@@ -3830,19 +3830,19 @@ TextureImporter:
       name: TX Village Props_145
       rect:
         serializedVersion: 2
-        x: 201
-        y: 426
-        width: 13
-        height: 14
+        x: 202
+        y: 427
+        width: 11
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e86fa294a4102030800000000000000
+      spriteID: 1b13cd9b652e3144ca9d3c282e81f9db
       internalID: 3467794410143443174
       vertices: []
       indices: 
@@ -3852,19 +3852,19 @@ TextureImporter:
       name: TX Village Props_146
       rect:
         serializedVersion: 2
-        x: 355
-        y: 414
-        width: 59
-        height: 31
+        x: 356
+        y: 415
+        width: 57
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13e7768d395e956e0800000000000000
+      spriteID: 81d20bb4e706ca940837f6c86ba826a1
       internalID: -1848193748905263567
       vertices: []
       indices: 
@@ -3874,19 +3874,19 @@ TextureImporter:
       name: TX Village Props_147
       rect:
         serializedVersion: 2
-        x: 451
-        y: 414
-        width: 91
-        height: 38
+        x: 452
+        y: 415
+        width: 89
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c6c46d7225767090800000000000000
+      spriteID: 9b9aca2b46e957f45b79c2f21e192bc7
       internalID: -8037107694002977088
       vertices: []
       indices: 
@@ -3896,19 +3896,19 @@ TextureImporter:
       name: TX Village Props_148
       rect:
         serializedVersion: 2
-        x: 575
-        y: 414
-        width: 97
-        height: 39
+        x: 576
+        y: 415
+        width: 95
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cdd2ce03d91c60f50800000000000000
+      spriteID: f199d3f9104890544b8630bfd679cb14
       internalID: 6847373164338228700
       vertices: []
       indices: 
@@ -3918,19 +3918,19 @@ TextureImporter:
       name: TX Village Props_149
       rect:
         serializedVersion: 2
-        x: 39
-        y: 364
-        width: 16
-        height: 9
+        x: 40
+        y: 365
+        width: 14
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cfd1c4507f62a4e50800000000000000
+      spriteID: 68d37f6a4efd33b45a165d737f07dfea
       internalID: 6794285830229466620
       vertices: []
       indices: 
@@ -3940,19 +3940,19 @@ TextureImporter:
       name: TX Village Props_150
       rect:
         serializedVersion: 2
-        x: 71
-        y: 364
-        width: 48
-        height: 9
+        x: 72
+        y: 365
+        width: 46
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce025e5f971e8d150800000000000000
+      spriteID: f622e903ae43c0f4fa8ad1cf901ac442
       internalID: 5897711625974391020
       vertices: []
       indices: 
@@ -3962,19 +3962,19 @@ TextureImporter:
       name: TX Village Props_151
       rect:
         serializedVersion: 2
-        x: 159
-        y: 350
-        width: 38
-        height: 43
+        x: 160
+        y: 351
+        width: 36
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 855821708b5275780800000000000000
+      spriteID: cc17a9d824f6803409672bd90f5c6191
       internalID: -8694439083292588712
       vertices: []
       indices: 
@@ -3984,19 +3984,19 @@ TextureImporter:
       name: TX Village Props_152
       rect:
         serializedVersion: 2
-        x: 223
-        y: 350
-        width: 38
-        height: 35
+        x: 224
+        y: 351
+        width: 36
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5f94a23d5d0cfa50800000000000000
+      spriteID: 13a4566e74e330d429aeeb9824590df1
       internalID: 6556129851477368669
       vertices: []
       indices: 
@@ -4006,19 +4006,19 @@ TextureImporter:
       name: TX Village Props_153
       rect:
         serializedVersion: 2
-        x: 287
-        y: 350
-        width: 38
-        height: 27
+        x: 288
+        y: 351
+        width: 36
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f4255a88d9cb54a0800000000000000
+      spriteID: bff262f5892648b4ab75dae176859aff
       internalID: -6603462496737745671
       vertices: []
       indices: 
@@ -4028,19 +4028,19 @@ TextureImporter:
       name: TX Village Props_154
       rect:
         serializedVersion: 2
-        x: 351
-        y: 347
-        width: 38
-        height: 22
+        x: 352
+        y: 348
+        width: 36
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b5fd789ae6f3f440800000000000000
+      spriteID: 1b069c9c77ef422419a35fd8bc111596
       internalID: 4968586301360960953
       vertices: []
       indices: 
@@ -4050,19 +4050,19 @@ TextureImporter:
       name: TX Village Props_155
       rect:
         serializedVersion: 2
-        x: 415
-        y: 350
-        width: 66
-        height: 46
+        x: 416
+        y: 351
+        width: 64
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c11e381afd3c6720800000000000000
+      spriteID: 4f8a4318ffce8f64687085d5ce45c82b
       internalID: 2840713609321779653
       vertices: []
       indices: 
@@ -4072,19 +4072,19 @@ TextureImporter:
       name: TX Village Props_156
       rect:
         serializedVersion: 2
-        x: 512
-        y: 350
-        width: 132
-        height: 46
+        x: 513
+        y: 351
+        width: 130
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82f2117b0c13bfb40800000000000000
+      spriteID: 482b967233009e14f98299359a8a570e
       internalID: 5475024475773808424
       vertices: []
       indices: 
@@ -4094,19 +4094,19 @@ TextureImporter:
       name: TX Village Props_157
       rect:
         serializedVersion: 2
-        x: 732
-        y: 351
-        width: 138
-        height: 45
+        x: 733
+        y: 352
+        width: 136
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fdc185b4b2a9ef150800000000000000
+      spriteID: 0c8e005514a223f43a51d8ce006eacdf
       internalID: 5908329271895006431
       vertices: []
       indices: 
@@ -4116,19 +4116,19 @@ TextureImporter:
       name: TX Village Props_158
       rect:
         serializedVersion: 2
-        x: 39
-        y: 331
-        width: 16
-        height: 9
+        x: 40
+        y: 332
+        width: 14
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e619f738b4aba670800000000000000
+      spriteID: 0e665199ee8619a428acca411a259440
       internalID: 8551109428613027559
       vertices: []
       indices: 
@@ -4138,19 +4138,19 @@ TextureImporter:
       name: TX Village Props_159
       rect:
         serializedVersion: 2
-        x: 71
-        y: 331
-        width: 16
-        height: 9
+        x: 72
+        y: 332
+        width: 14
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5cdc2cee3961b5ce0800000000000000
+      spriteID: dbefc576660849544abe96e65b4f014e
       internalID: -1415512833256141371
       vertices: []
       indices: 
@@ -4160,19 +4160,19 @@ TextureImporter:
       name: TX Village Props_160
       rect:
         serializedVersion: 2
-        x: 104
-        y: 331
-        width: 16
-        height: 9
+        x: 105
+        y: 332
+        width: 14
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a9c3f37dff973d400800000000000000
+      spriteID: 520dcfcd243f7f147bf2880e5be061b5
       internalID: 347755735972527258
       vertices: []
       indices: 
@@ -4182,19 +4182,19 @@ TextureImporter:
       name: TX Village Props_161
       rect:
         serializedVersion: 2
-        x: 157
-        y: 286
-        width: 106
-        height: 61
+        x: 158
+        y: 287
+        width: 104
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d31be46cf38687e10800000000000000
+      spriteID: 280becdd0a5b7cb4c9b5843e0dc72611
       internalID: 2195619441462391101
       vertices: []
       indices: 
@@ -4204,19 +4204,19 @@ TextureImporter:
       name: TX Village Props_162
       rect:
         serializedVersion: 2
-        x: 285
-        y: 286
-        width: 78
-        height: 46
+        x: 35
+        y: 311
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7b43e121d2b6f390800000000000000
+      spriteID: 51608f3f0c469574eaea8189e170ff0f
       internalID: -7784838294576870530
       vertices: []
       indices: 
@@ -4226,19 +4226,19 @@ TextureImporter:
       name: TX Village Props_163
       rect:
         serializedVersion: 2
-        x: 679
-        y: 286
-        width: 122
-        height: 46
+        x: 57
+        y: 255
+        width: 17
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a595d2c47027530f0800000000000000
+      spriteID: 491e99555c20b82429fe7cd7b2583351
       internalID: -1137877955172804262
       vertices: []
       indices: 
@@ -4248,19 +4248,19 @@ TextureImporter:
       name: TX Village Props_164
       rect:
         serializedVersion: 2
-        x: 34
-        y: 310
-        width: 14
-        height: 8
+        x: 83
+        y: 255
+        width: 7
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8620f6d8ef124cc20800000000000000
+      spriteID: 7a0cee481156c314da4cc12b94fe332e
       internalID: 3225740610282390120
       vertices: []
       indices: 
@@ -4270,19 +4270,19 @@ TextureImporter:
       name: TX Village Props_165
       rect:
         serializedVersion: 2
-        x: 56
-        y: 254
-        width: 19
-        height: 68
+        x: 101
+        y: 255
+        width: 7
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce5e99342b69ea2a0800000000000000
+      spriteID: 03086c6069970ba4c851b3880be10df7
       internalID: -6724271501235067412
       vertices: []
       indices: 
@@ -4292,19 +4292,19 @@ TextureImporter:
       name: TX Village Props_166
       rect:
         serializedVersion: 2
-        x: 82
-        y: 254
-        width: 9
-        height: 68
+        x: 286
+        y: 287
+        width: 76
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e06f91e6e7854d20800000000000000
+      spriteID: 0dd89de172bcb5540833a882768d05b1
       internalID: 3262162930797338856
       vertices: []
       indices: 
@@ -4314,19 +4314,19 @@ TextureImporter:
       name: TX Village Props_167
       rect:
         serializedVersion: 2
-        x: 100
-        y: 254
-        width: 9
-        height: 68
+        x: 382
+        y: 287
+        width: 62
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b4b816777b47d0c0800000000000000
+      spriteID: 1d7682619c3caf04593ea6a16a9d2d4f
       internalID: -4551085921980074827
       vertices: []
       indices: 
@@ -4336,19 +4336,19 @@ TextureImporter:
       name: TX Village Props_168
       rect:
         serializedVersion: 2
-        x: 381
-        y: 286
-        width: 64
-        height: 38
+        x: 478
+        y: 287
+        width: 48
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce6c4baf24d019700800000000000000
+      spriteID: 5ba84bcb34e64c8479ba634642ce0b1c
       internalID: 545231611213694700
       vertices: []
       indices: 
@@ -4358,19 +4358,19 @@ TextureImporter:
       name: TX Village Props_169
       rect:
         serializedVersion: 2
-        x: 477
-        y: 286
-        width: 50
-        height: 30
+        x: 680
+        y: 287
+        width: 120
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5cb61035ff4b79b30800000000000000
+      spriteID: 8ace16012feb0f0418e43c33f1dd98f0
       internalID: 4294099778423319493
       vertices: []
       indices: 
@@ -4380,19 +4380,19 @@ TextureImporter:
       name: TX Village Props_170
       rect:
         serializedVersion: 2
-        x: 912
-        y: 286
-        width: 64
-        height: 41
+        x: 913
+        y: 287
+        width: 62
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0301c6583a1c2e870800000000000000
+      spriteID: 8efd8b7245d9b884aaedf1292aa21f3b
       internalID: 8710737537350242352
       vertices: []
       indices: 
@@ -4402,19 +4402,19 @@ TextureImporter:
       name: TX Village Props_171
       rect:
         serializedVersion: 2
-        x: 34
-        y: 299
-        width: 14
-        height: 8
+        x: 35
+        y: 300
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef4d1542fc6eaf800800000000000000
+      spriteID: c80b03c011e591b4a828f62ef9146505
       internalID: 647083273823048958
       vertices: []
       indices: 
@@ -4424,19 +4424,19 @@ TextureImporter:
       name: TX Village Props_172
       rect:
         serializedVersion: 2
-        x: 540
-        y: 286
-        width: 36
-        height: 21
+        x: 541
+        y: 287
+        width: 34
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2399f0626168b4760800000000000000
+      spriteID: f4881bd54dfe119478a53bba8dd1fe39
       internalID: 7443190238845835570
       vertices: []
       indices: 
@@ -4446,19 +4446,19 @@ TextureImporter:
       name: TX Village Props_173
       rect:
         serializedVersion: 2
-        x: 34
-        y: 288
-        width: 14
-        height: 8
+        x: 35
+        y: 289
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 101bc6c58c26a6640800000000000000
+      spriteID: 54165667255b80048aff1129cd5c236d
       internalID: 5073976542869893377
       vertices: []
       indices: 
@@ -4468,19 +4468,19 @@ TextureImporter:
       name: TX Village Props_174
       rect:
         serializedVersion: 2
-        x: 829
-        y: 286
-        width: 70
-        height: 9
+        x: 830
+        y: 287
+        width: 68
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0b86d1aa0d026080800000000000000
+      spriteID: e7f73f4bce616ff47a3eb30bd7ec1db7
       internalID: -9195773149821105398
       vertices: []
       indices: 
@@ -4490,19 +4490,19 @@ TextureImporter:
       name: TX Village Props_175
       rect:
         serializedVersion: 2
-        x: 31
-        y: 229
-        width: 130
-        height: 9
+        x: 32
+        y: 230
+        width: 128
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbc3b6ac8f1b320e0800000000000000
+      spriteID: 8dd76cf026543df4eb38448f627d3a30
       internalID: -2295795702922789697
       vertices: []
       indices: 
@@ -4512,19 +4512,19 @@ TextureImporter:
       name: TX Village Props_176
       rect:
         serializedVersion: 2
-        x: 192
-        y: 234
-        width: 64
-        height: 12
+        x: 193
+        y: 235
+        width: 62
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0cbf2afed40d4f3f0800000000000000
+      spriteID: b119dcc27cc70c8418754e7143afac6f
       internalID: -867839795024168000
       vertices: []
       indices: 
@@ -4534,19 +4534,19 @@ TextureImporter:
       name: TX Village Props_177
       rect:
         serializedVersion: 2
-        x: 265
-        y: 223
-        width: 49
-        height: 34
+        x: 266
+        y: 224
+        width: 47
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26bf098bf58963810800000000000000
+      spriteID: e49094e01f317e94fb8678f45e28526c
       internalID: 1744749442538470242
       vertices: []
       indices: 
@@ -4556,19 +4556,19 @@ TextureImporter:
       name: TX Village Props_178
       rect:
         serializedVersion: 2
-        x: 90
-        y: 190
-        width: 12
-        height: 38
+        x: 91
+        y: 191
+        width: 10
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b5bbc48dc91009a0800000000000000
+      spriteID: f1a4b36e58b6e8442ac7a14ffd550ba9
       internalID: -6268982310812797517
       vertices: []
       indices: 
@@ -4578,19 +4578,19 @@ TextureImporter:
       name: TX Village Props_179
       rect:
         serializedVersion: 2
-        x: 900
-        y: 37
-        width: 94
-        height: 185
+        x: 901
+        y: 38
+        width: 92
+        height: 183
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3892857e94765caf0800000000000000
+      spriteID: 908a5173f821ae149b0fc37120f5a2f2
       internalID: -376781426703980157
       vertices: []
       indices: 
@@ -4600,7 +4600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f2b8a3cb3a63f749bf8a3f3c90130c6
     internalID: 0
     vertices: []
     indices: 
@@ -4608,7 +4608,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":36.0,"y":36.0},"gridSpriteSize":{"x":36.0,"y":36.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       TX Village Props_0: -3806943691756881100
       TX Village Props_1: 9202163618114184290
