@@ -25,15 +25,15 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	}
 	void Start()
     {
-        rb.gravityScale = 10;
+        rb.gravityScale = 15;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-		
 		rb.linearVelocity = moveSpeed * moveVector;
+
 		//sp.flipX = (rb.linearVelocity.x > transform.position.x ? false : true);
 
 		if (rb.linearVelocity == new Vector2(0,0))
@@ -50,22 +50,23 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 		{
 			AnimationPj.SetBool("Jump", false);
 		}
+	
 	}
-	public void OnJump(InputAction.CallbackContext context)
+    public void OnJump(InputAction.CallbackContext context)
 	{
 		
 		if (IsGrounded())
 		{
 			
-			if (rb.gravityScale == -20)
+			if (rb.gravityScale == -15)
 			{
-				rb.gravityScale = 20;
+				rb.gravityScale = 15;
 				sp.flipY = false;
 				
 			}
 			else
 			{
-				rb.gravityScale = -20;
+				rb.gravityScale = -15;
 				sp.flipY = true;
 				
 			}
@@ -80,8 +81,8 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 		
 		moveVector = context.ReadValue<Vector2>();
 		AnimationPj.SetBool("Move", true);
-
-		if (moveVector == new Vector2(1,0))
+		
+		if (moveVector == new Vector2(1, 0))
 		{
 			sp.flipX = false;
 		}
@@ -93,8 +94,8 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
 	bool IsGrounded()
 	{
-		Debug.DrawRay(transform.position, Vector2.down * rayLength, Color.red);
-		RaycastHit2D hit = Physics2D.Raycast(transform.position, (sp.flipY == false? Vector2.down : Vector2.up), rayLength, groundLayer);
+		Debug.DrawRay(transform.position, (sp.flipY == false ? Vector2.down : Vector2.up) * rayLength, Color.red);
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, (sp.flipY == false ? Vector2.down : Vector2.up), rayLength, groundLayer);
 		return hit.collider != null;
 	}
 	private void OnEnable()
