@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	public LayerMask groundLayer;
 	private Animator AnimationPj;
 	private SpriteRenderer sp;
-
+	private float forceDash;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 
 	private void Awake()
@@ -25,14 +25,16 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	}
 	void Start()
     {
-        rb.gravityScale = 15;
+        rb.gravityScale = 30;
+		forceDash = 0.9f;
 
-    }
 
-    // Update is called once per frame
-    void Update()
+}
+
+// Update is called once per frame
+void Update()
     {
-		rb.linearVelocity = moveSpeed * moveVector;
+		rb.linearVelocity =   (IsGrounded()? moveSpeed : moveSpeed-7) * moveVector ;
 
 		//sp.flipX = (rb.linearVelocity.x > transform.position.x ? false : true);
 
@@ -58,15 +60,15 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 		if (IsGrounded())
 		{
 			
-			if (rb.gravityScale == -15)
+			if (rb.gravityScale == -30)
 			{
-				rb.gravityScale = 15;
+				rb.gravityScale = 30;
 				sp.flipY = false;
 				
 			}
 			else
 			{
-				rb.gravityScale = -15;
+				rb.gravityScale = -30;
 				sp.flipY = true;
 				
 			}
@@ -105,5 +107,16 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	private void OnDisable()
 	{
 		inputSystem.Disable();
+	}
+
+    public void OnDash(InputAction.CallbackContext context)
+    {
+		if (context.canceled)
+		{
+			float direction = moveVector.x;
+			float forceD = Mathf.Lerp(0, forceDash, 0.5f);
+			rb.AddForceX(forceD * direction);
+		}
+		
 	}
 }
