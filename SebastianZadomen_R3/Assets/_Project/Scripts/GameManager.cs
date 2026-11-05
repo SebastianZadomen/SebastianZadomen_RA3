@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public  class GameManager : MonoBehaviour
 {
@@ -20,8 +21,6 @@ public  class GameManager : MonoBehaviour
     {
         PanelGameOver.SetActive(false);    
     }
-
-    // Update is called once per frame
     void Update()
     {
         
@@ -32,6 +31,11 @@ public  class GameManager : MonoBehaviour
         {
             PanelGameOver.SetActive(true);
         }
+    }
+    public void BtnRestart()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
 }

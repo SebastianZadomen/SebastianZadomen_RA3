@@ -2,26 +2,33 @@ using UnityEngine;
 
 public class DeadZone : MonoBehaviour
 {
-    private float DeadZoneTime;
-    private bool PlayerContact;
+    private float deadZoneTime = 0f;
+    private bool playerContact = false;
+    private bool eventTriggered = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !playerContact)
         {
-            PlayerContact = true;
-        }
-    }
-    private void Update()
-    {
-        if (PlayerContact)
-        {
-            DeadZoneTime += Time.deltaTime;
-        }
-        if (DeadZoneTime >= 2)
-        {
-            GameManager.instace.ControlPanelDead(true);
-            Time.timeScale = 0;
+            playerContact = true;
+
+            GameEvents.PlayerIsDead(true);
         }
     }
 
+    private void Update()
+    {
+        if (playerContact && !eventTriggered)
+        {
+            deadZoneTime += Time.deltaTime;
+
+            if (deadZoneTime >= 1.8f)
+            {
+                eventTriggered = true;
+                GameManager.instace.ControlPanelDead(true);
+                
+                Time.timeScale = 0f;
+            }
+        }
+    }
 }

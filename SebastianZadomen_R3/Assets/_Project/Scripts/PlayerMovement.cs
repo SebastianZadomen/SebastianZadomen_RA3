@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.Rendering.DebugUI;
@@ -8,13 +9,21 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	private Rigidbody2D rb;
 	private Vector2 moveVector = Vector2.zero;
     [SerializeField] private float moveSpeed;
-	public float rayLength = 0.6f;
+	[SerializeField] private GameObject effectDeadprefab;
+    [SerializeField] private GameObject effectSpawnprefab;
+    private GameObject instantiateEffectSpawn;
+
+
+    public float rayLength = 0.6f;
 	public LayerMask groundLayer;
 	private Animator AnimationPj;
 	private SpriteRenderer sp;
 	private float forceDash;
-	// Start is called once before the first execution of Update after the MonoBehaviour is created
+	private float timeDead;
+	private GameObject instantiateEffectDead;
 
+    private bool animationStarted = false;
+    private bool IsDead = false;
 	private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,21 +31,53 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 		inputSystem.PlayerMove.SetCallbacks(this);
 		AnimationPj = GetComponent<Animator>();
 		sp = GetComponent<SpriteRenderer>();
+
+
+
 	}
 	void Start()
     {
         rb.gravityScale = 30;
 		forceDash = 0.9f;
+		if (instantiateEffectSpawn != null)
+		{
+            instantiateEffectSpawn = Instantiate(effectSpawnprefab ,transform.position, quaternion.identity);
+
+		}
 
 
-}
+	}
+	
 
 // Update is called once per frame
-void Update()
+	void Update()
     {
-		rb.linearVelocity =   (IsGrounded()? moveSpeed : moveSpeed-7) * moveVector ;
+		
+        if (IsDead)
+        {
+            rb.linearVelocity = Vector2.zero;
+            timeDead += Time.deltaTime;
 
-		//sp.flipX = (rb.linearVelocity.x > transform.position.x ? false : true);
+            if (timeDead >= 0.3f && !animationStarted)
+            {
+                animationStarted = true;
+                AnimationPj.SetBool("IsDead", true);
+            }
+
+            if (timeDead >= 0.8f)
+            {
+                gameObject.SetActive(false);
+            }
+			if (timeDead >= 0.7f)
+			{
+                
+                    Destroy(instantiateEffectDead);
+            }
+
+            return;
+        }
+        rb.linearVelocity =   (IsGrounded()? moveSpeed : moveSpeed-7) * moveVector ;
+
 
 		if (rb.linearVelocity == new Vector2(0,0))
 		{
@@ -52,12 +93,12 @@ void Update()
 		{
 			AnimationPj.SetBool("Jump", false);
 		}
-	
-	}
+       
+    }
     public void OnJump(InputAction.CallbackContext context)
 	{
-		
-		if (IsGrounded())
+        if (IsDead) return;
+        if (IsGrounded())
 		{
 			
 			if (rb.gravityScale == -30)
@@ -80,8 +121,8 @@ void Update()
 
     public void OnMovement(InputAction.CallbackContext context)
     {
-		
-		moveVector = context.ReadValue<Vector2>();
+        if (IsDead) return;
+        moveVector = context.ReadValue<Vector2>();
 		AnimationPj.SetBool("Move", true);
 		
 		if (moveVector == new Vector2(1, 0))
@@ -103,15 +144,18 @@ void Update()
 	private void OnEnable()
 	{
 		inputSystem.Enable();
-	}
+        GameEvents.onPlayerIsDead += HandlePlayerDeath;
+    }
 	private void OnDisable()
 	{
 		inputSystem.Disable();
-	}
+        GameEvents.onPlayerIsDead -= HandlePlayerDeath;
+    }
 
     public void OnDash(InputAction.CallbackContext context)
     {
-		if (context.canceled)
+        if (IsDead) return;
+        if (context.canceled)
 		{
 			float direction = moveVector.x;
 			float forceD = Mathf.Lerp(0, forceDash, 0.5f);
@@ -119,4 +163,19 @@ void Update()
 		}
 		
 	}
+    private void HandlePlayerDeath(bool isDead)
+    {
+        IsDead = isDead;
+
+        if (effectDeadprefab != null)
+        {
+            instantiateEffectDead = Instantiate(effectDeadprefab, transform.position, quaternion.identity);
+        }
+
+        rb.linearVelocity = Vector2.zero;
+        rb.gravityScale = 0;
+        AnimationPj.SetBool("Move", false);
+        AnimationPj.SetBool("Jump", false);
+    }
+
 }
