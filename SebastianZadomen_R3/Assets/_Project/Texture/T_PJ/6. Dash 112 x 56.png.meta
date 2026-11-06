@@ -176,12 +176,12 @@ TextureImporter:
       name: 6. Dash 112 x 56_1
       rect:
         serializedVersion: 2
-        x: 123
+        x: 124
         y: 2
         width: 97
         height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.8457805, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,8 +202,8 @@ TextureImporter:
         y: 2
         width: 84
         height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.906973, y: 0.49999994}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,8 +224,8 @@ TextureImporter:
         y: 2
         width: 80
         height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.90313375, y: 0.49999994}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,8 +246,8 @@ TextureImporter:
         y: 2
         width: 75
         height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.85260826, y: 0.53146404}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
