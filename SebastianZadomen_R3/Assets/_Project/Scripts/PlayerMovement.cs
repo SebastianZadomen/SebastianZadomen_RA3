@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
     [SerializeField] private float moveSpeed;
     [SerializeField] private float dashSpeed = 15f;
-    [SerializeField] private float dashCooldown = 1.5f; // Tiempo de espera entre dashes
+    [SerializeField] private float dashCooldown = 1.5f; 
     [SerializeField] private GameObject effectDeadprefab;
     [SerializeField] private GameObject effectSpawnprefab;
 
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
     private bool dashEjecution = false;
     private float dashTimer = 0f;
-    private float lastDashTime = -100f; // Controla cuándo se hizo el último dash
+    private float lastDashTime = -100f; 
 
     private void Awake()
     {
@@ -116,7 +116,6 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
             AnimationPj.SetBool("Move", moveVector.x != 0);
 
-            // La animación de salto se evalúa SOLO si no estamos haciendo un dash
             AnimationPj.SetBool("Jump", !IsGrounded());
         }
     }
@@ -135,10 +134,8 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
     {
         if (IsDead) return;
 
-        // Quitamos el return de dashEjecution para que el juego siempre sepa si soltaste la tecla
         moveVector = context.ReadValue<Vector2>();
 
-        // Solo giramos el sprite si no estamos en medio de un dash
         if (!dashEjecution)
         {
             if (moveVector.x > 0) sp.flipX = false;
@@ -150,20 +147,18 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
     {
         if (IsDead || dashEjecution) return;
 
-        // Comprobamos si ha pasado el tiempo de cooldown desde el último dash
         if (context.performed && Time.time >= lastDashTime + dashCooldown)
         {
             dashEjecution = true;
             dashTimer = 0f;
-            lastDashTime = Time.time; // Guardamos el momento exacto en el que se hizo el dash
+            lastDashTime = Time.time; 
 
             AnimationPj.SetBool("Dash", true);
             AnimationPj.SetBool("Move", false);
-            AnimationPj.SetBool("Jump", false); // Apagamos el salto por si estábamos en el aire
+            AnimationPj.SetBool("Jump", false); 
 
             float direction = moveVector.x != 0 ? Mathf.Sign(moveVector.x) : (sp.flipX ? -1f : 1f);
 
-            // Corregido el error de sintaxis en tu multiplicación
             rb.linearVelocity = new Vector2(direction * dashSpeed, rb.linearVelocity.y);
         }
     }
