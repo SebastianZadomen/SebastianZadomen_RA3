@@ -1,4 +1,5 @@
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.Rendering.DebugUI;
@@ -22,8 +23,15 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	private float timeDead;
 	private GameObject instantiateEffectDead;
 
-    private bool animationStarted = false;
+    private bool animationDeadStarted = false;
     private bool IsDead = false;
+	private bool animationSpawnStarted = false;
+
+	private float spawnTimer = 0f;
+	private float spawnDuration = 0.4f;
+
+	private bool dashEjecution = false;
+	private float dashTimer = 0f;
 	private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,41 +46,62 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 	void Start()
     {
         rb.gravityScale = 30;
-		forceDash = 0.9f;
-		if (instantiateEffectSpawn != null)
+		forceDash = 1.1f;
+		ChangeColor();
+		if (effectSpawnprefab != null)
 		{
-            instantiateEffectSpawn = Instantiate(effectSpawnprefab ,transform.position, quaternion.identity);
-
+			instantiateEffectSpawn = Instantiate(effectSpawnprefab, transform.position + Vector3.down, Quaternion.identity);
+			Destroy(instantiateEffectSpawn, spawnDuration);
 		}
-
-
 	}
-	
 
+	private void ChangeColor()
+	{
+		
+		Color colorState = sp.color;
+		if (colorState.a == 1)
+		{
+			colorState.a = 0.0f;
+			sp.color = colorState;
+		}
+		else
+		{
+			colorState.a = 1.0f;
+			sp.color = colorState;
+		}
+	}
 // Update is called once per frame
 	void Update()
     {
-		
-        if (IsDead)
+		if (!animationSpawnStarted)
+		{
+			spawnTimer += Time.deltaTime;
+
+			if (spawnTimer >= spawnDuration)
+			{
+				animationSpawnStarted = true;
+				ChangeColor() ;
+			}
+			return; 
+		}
+
+		if (IsDead)
         {
             rb.linearVelocity = Vector2.zero;
             timeDead += Time.deltaTime;
 
-            if (timeDead >= 0.3f && !animationStarted)
+            if (timeDead >= 0.3f && !animationDeadStarted)
             {
-                animationStarted = true;
+                animationDeadStarted = true;
                 AnimationPj.SetBool("IsDead", true);
             }
 
             if (timeDead >= 0.8f)
             {
                 gameObject.SetActive(false);
-            }
-			if (timeDead >= 0.7f)
-			{
-                
-                    Destroy(instantiateEffectDead);
-            }
+				Destroy(instantiateEffectDead, 0.4f);
+			}
+			
 
             return;
         }
@@ -85,19 +114,31 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
 		}
 
-		if (!IsGrounded())
+		
+
+		if (dashEjecution)
 		{
-			AnimationPj.SetBool("Jump", true);
+			dashTimer += Time.deltaTime;
+			if (dashTimer >= 0.4f)
+			{
+				AnimationPj.SetBool("Dash", false);
+				dashEjecution = false;
+				dashTimer = 0f;
+			}
 		}
 		else
 		{
-			AnimationPj.SetBool("Jump", false);
+			rb.linearVelocity = (IsGrounded() ? moveSpeed : moveSpeed - 7) * moveVector;
 		}
-       
-    }
+
+		AnimationPj.SetBool("Jump", !IsGrounded());
+
+	}
+
+
     public void OnJump(InputAction.CallbackContext context)
 	{
-        if (IsDead) return;
+        if (IsDead || dashEjecution) return;
         if (IsGrounded())
 		{
 			
@@ -121,18 +162,20 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
     public void OnMovement(InputAction.CallbackContext context)
     {
-        if (IsDead) return;
-        moveVector = context.ReadValue<Vector2>();
-		AnimationPj.SetBool("Move", true);
+        if (IsDead || dashEjecution) return;
 		
-		if (moveVector == new Vector2(1, 0))
-		{
-			sp.flipX = false;
-		}
-		if (moveVector == new Vector2(-1, 0))
-		{
-			sp.flipX = true;
-		}
+			moveVector = context.ReadValue<Vector2>();
+			AnimationPj.SetBool("Move", true);
+
+			if (moveVector == new Vector2(1, 0))
+			{
+				sp.flipX = false;
+			}
+			if (moveVector == new Vector2(-1, 0))
+			{
+				sp.flipX = true;
+			}
+		
 	}
 
 	bool IsGrounded()
@@ -154,12 +197,15 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
     public void OnDash(InputAction.CallbackContext context)
     {
-        if (IsDead) return;
-        if (context.canceled)
+        if (IsDead || dashEjecution) return;
+        if (context.performed)
 		{
+			AnimationPj.SetBool("Dash", true);
+			dashEjecution = true;
 			float direction = moveVector.x;
-			float forceD = Mathf.Lerp(0, forceDash, 0.5f);
+			float forceD = Mathf.Lerp(0, forceDash, 0.7f);
 			rb.AddForceX(forceD * direction);
+			//rb.AddForce(new Vector2(forceD * direction, 1), ForceMode2D.Impulse);
 		}
 		
 	}
@@ -179,3 +225,5 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
     }
 
 }
+
+
