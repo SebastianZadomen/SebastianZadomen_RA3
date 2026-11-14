@@ -43,7 +43,7 @@ public class ShowSign : MonoBehaviour
     private enum SceneEnum
     {
         SceneCave,
-        SceneForest
+        OutdoorScene
     }
   
 }

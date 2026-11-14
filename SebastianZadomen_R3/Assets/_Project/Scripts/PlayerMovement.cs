@@ -174,13 +174,13 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
     private void OnEnable()
     {
         inputSystem.Enable();
-        GameEvents.onPlayerIsDead += HandlePlayerDeath;
+        GameEvents.OnPlayerIsDead += HandlePlayerDeath;
     }
 
     private void OnDisable()
     {
         inputSystem.Disable();
-        GameEvents.onPlayerIsDead -= HandlePlayerDeath;
+        GameEvents.OnPlayerIsDead -= HandlePlayerDeath;
     }
 
     private void HandlePlayerDeath(bool isDead)
