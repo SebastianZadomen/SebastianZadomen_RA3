@@ -149,6 +149,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
 
         if (context.performed && Time.time >= lastDashTime + dashCooldown)
         {
+            AudioManager.instance.PlayDashSound();
             dashEjecution = true;
             dashTimer = 0f;
             lastDashTime = Time.time; 
@@ -191,7 +192,7 @@ public class PlayerMovement : MonoBehaviour, InputSystem_Actions.IPlayerMoveActi
         {
             instantiateEffectDead = Instantiate(effectDeadprefab, transform.position, Quaternion.identity);
         }
-
+        AudioManager.instance.PlayDeadSound();
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0;
         AnimationPj.SetBool("Move", false);

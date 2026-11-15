@@ -8,9 +8,10 @@ public class ShowSign : MonoBehaviour
     [SerializeField] private GameObject SignCanva;
     [SerializeField] private SceneEnum Scene;
     private bool flagCollider;
+    public bool OnlyShow;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && flagCollider)
+        if (Input.GetKeyDown(KeyCode.E) && flagCollider && !OnlyShow)
         {
             ChangeScene();
         }
@@ -21,6 +22,10 @@ public class ShowSign : MonoBehaviour
         {
             SignCanva.SetActive(true);
             flagCollider = true;
+            if (OnlyShow)
+            {
+                AudioManager.instance.PlayBossDetected();
+            }
         }
 
     }
@@ -34,6 +39,7 @@ public class ShowSign : MonoBehaviour
     {
         SignCanva.SetActive(false);
         flagCollider = false;
+        OnlyShow = false;
 
     }
     void ChangeScene()
@@ -43,7 +49,8 @@ public class ShowSign : MonoBehaviour
     private enum SceneEnum
     {
         SceneCave,
-        OutdoorScene
+        OutdoorScene,
+        FinalScene
     }
   
 }

@@ -22,7 +22,8 @@ public class Fireball : MonoBehaviour
             GameEvents.PlayerIsDead(true);
             AnimationFire.SetTrigger("ExplodeTrigger");
             
-            Destroy(gameObject, 0.5f); 
+            Destroy(gameObject, 0.5f);
+
         }
         else if (collision.CompareTag("Ground")) 
         {

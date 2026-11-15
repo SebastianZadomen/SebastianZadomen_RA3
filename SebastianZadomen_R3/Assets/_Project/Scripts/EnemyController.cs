@@ -41,7 +41,9 @@ public class EnemyController : MonoBehaviour
             if (hit.collider != null && hit.collider.CompareTag("Player"))
             {
                 float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                EnemyHead.transform.eulerAngles = new Vector3(0, 0, angle < 85 ? angle + 340 : angle + 160);
+                float angleLimit = spBody.flipX ? Mathf.Clamp(angle, -45f, 85f) + 340f : Mathf.Clamp(angle, 95f, 225f) + 160f;
+                EnemyHead.transform.rotation = Quaternion.Euler(0f, 0f, angleLimit);
+
                 spBody.flipX = angle < 85;
                 spHead.flipX = angle < 85;
 
@@ -83,6 +85,7 @@ public class EnemyController : MonoBehaviour
         Animator bulletAnim = loadedBullet.GetComponent<Animator>();
 
         Rigidbody2D bulletRB = loadedBullet.GetComponent<Rigidbody2D>();
+        AudioManager.instance.PlayFireSound();
         if (bulletRB != null) bulletRB.linearVelocity = direction * bulletSpeed;
 
         Destroy(loadedBullet, bulletLifetime);
