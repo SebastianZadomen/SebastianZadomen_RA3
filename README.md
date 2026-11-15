@@ -1,12 +1,22 @@
 # SebastianZadomen_RA3
 
 ## Escaping Death
+Escaping Death és un joc de plataformes en 2D desenvolupat en Unity. La història segueix a un heroi que mentre deambula, es troba amb un portal i entra sense pensar-lo, quedant atrapat en diferents escenaris dels quals haurà d'escapar superant obstacles i enemics.
 
-Escaping Death es un juego de plataformas en 2D desarrollado en Unity. La historia sigue a un héroe que mientras deambula, se encuentra con un portal y entra sin pensarlo, quedando atrapado en distintos escenarios de los que tendrá que escapar superando obstáculos y enemigos.
+## Controls
 
-## Controles
+* **A / D :** Moure's
+* **Space:** Canviar la gravetat
+* **Q:** Fer dash
+* **Esc:** Obrir el menú d'opcions
 
-* **A / D :** Moverse
-* **Space:** Cambiar la gravedad
-* **Q:** Hacer dash
-* **Esc:** Abrir el menú de opciones
+## Visualitzacions
+
+
+![Menú](Img/ImgMenu.png)
+
+
+![Escena](Img/ImgScene.png)
+
+
+![Escena Cueva](Img/ImgSceneCave.png)
